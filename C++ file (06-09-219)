@@ -1,0 +1,102 @@
+                                                 //Avinash Baghel
+                                                //Roll no:- 19/BHP/006
+                                               //BSC (HONS) PHYSICS
+QUESTION 1: To calculate the area of rectangle?
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,c;
+	cout<<"Enter the value of length (meter)= ";
+	cin>>a;
+	cout<<"Enter the value of breadth (meter)= ";
+	cin>>b;
+	c=a*b;
+	cout<<"Area of rectangle is(meter^2)= "<<c;
+	return 0;
+}
+
+
+
+
+QUESTION 2: To check the size of variables in bytes?
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   cout << "Size of char : " << sizeof(char) << endl;
+   cout << "Size of int : " << sizeof(int) << endl;
+   cout << "Size of short int : " << sizeof(short int) << endl;
+   cout << "Size of long int : " << sizeof(long int) << endl;
+   cout << "Size of float : " << sizeof(float) << endl;
+   cout << "Size of double : " << sizeof(double) << endl;
+   cout << "Size of wchar_t : " << sizeof(wchar_t) << endl;
+return 0;
+   
+}
+
+
+
+
+Question 3: To find the largest of three numbers?
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	 float num1, num2, num3;
+	 cout<<"Enter the value of num1= ";
+	 cin>>num1;
+	 cout<<"Enter the value of num2= ";
+	 cin>>num2;
+	 cout<<"Enter the value of num3= ";
+	 cin>>num3;
+	 
+	 if(num1>num2 && num1>num2)
+	 {
+	 	cout<<"The largest number is= "<<num1;
+	 }
+	 
+	 if(num2>num1 && num2>num3)
+	 {
+	 	cout<<"The largest number is= "<<num2;
+	 }
+	 
+	 if(num3>num1 && num3>num2)
+	 {
+	 	cout<<"The largest number is= "<<num3;
+	 }
+	 return 0;
+	 
+	 
+	 
+}
+
+
+
+
+QUESTION 4: To find roots of a quadratic numbers?
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	float a, b, c, d, x1, x2;
+	cout<<"Enter the value of a= ";
+	cin>>a;
+	cout<<"Enter the value of b= ";
+	cin>>b;
+	cout<<"Enter the value of c= ";
+	cin>>c;
+	
+	d=sqrt(b*b-4*a*c);
+	cout<<"The Discriminat is= "<< d <<endl;
+	
+	x1=(-b+d)/(2*a);
+	x2=(-b-d)/(2*a);
+	cout<<"The roots are= "<< x1 << x2;
+	return 0;
+	}
